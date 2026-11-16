@@ -1,25 +1,12 @@
 {
  "format": 1,
  "key": "9daad1147531048a",
- "signature": "wpeWaDqqG90adRfYpxwBBBPRY8txAF01u72idZk97zY+UUit78Apo2hPcuLFvXgOZ0qWKpEo8PyUgPv6H6hxAw==",
+ "signature": "4lv2hLcmiazx0056834k+p8dNTL7bKyPkqJ9qpYw4RL7W2xL3Y9I1Sq8RWNSYgOrQN7oI0eq+9OvogRTZQdXDw==",
  "payload": {
   "app": "FX Terminal",
-  "published": "2026-11-16 13:18",
+  "published": "2026-11-16 13:24",
   "latest": "2.1.82",
   "packages": [
-   {
-    "version": "2.1.69",
-    "requires": "2.1.68",
-    "file": "packages/fx_update_2.1.69.zip",
-    "sha256": "5673b5744941e2fdbdb1fc2c32faed713b4597a14618a496c8f5f9ae0aba4044",
-    "size": 55485,
-    "date": "2026-11-16",
-    "build_rust": false,
-    "changes": [
-     "Обновления через интернет включены: в терминал добавлен открытый ключ подписи автора (номер 9daad1147531048a). Теперь терминал через полторы минуты после запуска и дальше раз в час проверяет github.com/golubovskiy/fx-terminal-updates и принимает только пакеты из списка, подписанного этим ключом.",
-     "Пока в репозитории ничего не опубликовано (нет latest.json), проверка отвечает «обновлений ещё нет», а не ошибкой."
-    ]
-   },
    {
     "version": "2.1.70",
     "requires": "2.1.69",
