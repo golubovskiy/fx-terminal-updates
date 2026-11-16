@@ -1,26 +1,12 @@
 {
  "format": 1,
  "key": "9daad1147531048a",
- "signature": "nc0oKsyfbm5kIWOQt/AntAX/55+0j2wOBbtCJdDkiEp3VEBLWZ4eOsMKabduFJFU2+383z7t2P5JQl185wU8Ag==",
+ "signature": "XycDbwSVTdn4RaAqlTTMweDgzMseSpJ3GDF89zwW1U3AnzrdKIzGWGCw2xtRO+SfcVcSipkLnpfebmiJg/FbDw==",
  "payload": {
   "app": "FX Terminal",
   "published": "2026-11-16 13:25",
   "latest": "2.1.82",
   "packages": [
-   {
-    "version": "2.1.72",
-    "requires": "2.1.70",
-    "file": "packages/fx_update_2.1.72.zip",
-    "sha256": "174d57841ba786c55f1092a8a5ea9d02fb1ae2bf86a20782f2b23fcbe5acecc2",
-    "size": 66771,
-    "date": "2026-11-16",
-    "build_rust": false,
-    "changes": [
-     "То же, что 2.1.71 (не установилась: прежняя проверка «О проекте» требует, чтобы ни одна кнопка не была уже своего текста, а новая кнопка «GitHub ↗» была узкой — исправлено). «О проекте»: справа от названия — небольшая кнопка «GitHub ↗», открывает страницу обновлений github.com/golubovskiy/fx-terminal-updates.",
-     "Обновления через интернет: неудачный пакет больше не блокирует цепочку. Пакет ставится на версию не ниже своего requires, и терминал на каждом шаге берёт самый новый подходящий пакет — поэтому 2.1.72 (requires 2.1.70) перешагивает неудачную 2.1.71. Обычные пакеты, как и раньше, ставятся все по очереди.",
-     "tools/publish_update.py --withdraw ВЕРСИЯ — снять опубликованный пакет: убирает его из подписанного списка и из папки packages/ и отправляет в GitHub."
-    ]
-   },
    {
     "version": "2.1.74",
     "requires": "2.1.70",
