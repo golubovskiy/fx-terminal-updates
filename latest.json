@@ -1,24 +1,12 @@
 {
  "format": 1,
  "key": "9daad1147531048a",
- "signature": "yIs0SkhC34b+iWEJZKYQITmR04yfjrAoeAAz94sUcxMcEFLTsx0fogcQH1G90rGNUTR/hxv/zunkdhdFMH1tDg==",
+ "signature": "93j2g4KLijjsAUr6MK3XC8TlRs5jRzevOzGd/h1FlCRiZvfcIvm4ZwFHbjQQmMgVhf9pVuRmmLxbkGAyIV0NCw==",
  "payload": {
   "app": "FX Terminal",
   "published": "2026-11-16 13:27",
   "latest": "2.1.82",
   "packages": [
-   {
-    "version": "2.1.76",
-    "requires": "2.1.75",
-    "file": "packages/fx_update_2.1.76.zip",
-    "sha256": "4368a7f851ff640acf755ecfa52c52368d34a347f9737d3714f4ec871fed0c50",
-    "size": 139907,
-    "date": "2026-11-16",
-    "build_rust": false,
-    "changes": [
-     "Стакан: заявку на закрытие, поставленную на цену открытия позиции, снова можно снять крестиком. Раньше в такой строке первой стояла метка позиции, и «×» за меткой заявки уходил за правый край стакана. Теперь «×» стоит сразу за меткой заявки (TP, SL), метка позиции — после него, и крестик никогда не выходит за край окна."
-    ]
-   },
    {
     "version": "2.1.77",
     "requires": "2.1.76",
