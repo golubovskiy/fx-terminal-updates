@@ -1,26 +1,12 @@
 {
  "format": 1,
  "key": "9daad1147531048a",
- "signature": "93j2g4KLijjsAUr6MK3XC8TlRs5jRzevOzGd/h1FlCRiZvfcIvm4ZwFHbjQQmMgVhf9pVuRmmLxbkGAyIV0NCw==",
+ "signature": "p6loOXHzIhHt7Q14kUb6aZMOzYlJVO9yuOUjDYuAX/GViTZ/YcyPnugx3PUiBfAX3aRm/IJAZhQ1o0r7yCLADA==",
  "payload": {
   "app": "FX Terminal",
   "published": "2026-11-16 13:27",
   "latest": "2.1.82",
   "packages": [
-   {
-    "version": "2.1.77",
-    "requires": "2.1.76",
-    "file": "packages/fx_update_2.1.77.zip",
-    "sha256": "bd5d2aad04be629af6ef4bfaa6f7af8eeeeb2fee35d0d59ca47338290b61ff26",
-    "size": 211670,
-    "date": "2026-11-16",
-    "build_rust": false,
-    "changes": [
-     "Звук при остановке робота — FX Robot End: те же четыре ноты, что у FX Robot, но вниз, — на слух понятно, робот начал или закончил. Звучит один раз на робота и только для тех, о ком было уведомление «Робот: покупка / продажа»; робот считается остановившимся, когда молчит дольше «Пауза робота, не дольше» в его настройках (по умолчанию 60 с) — раньше это определить нельзя.",
-     "В «Уведомлениях» строка робота получает «· остановился» и сколько он работал и поднимается наверх; если тот же робот продолжит, пометка уходит сама.",
-     "«Настройки» → «Звук»: галочка «Звук при остановке робота (FX Robot End)» (включена) и кнопка ▶ — прослушать. Звук собирается tools/make_robot_sound.py --end."
-    ]
-   },
    {
     "version": "2.1.78",
     "requires": "2.1.77",
