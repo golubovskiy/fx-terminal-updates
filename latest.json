@@ -1,27 +1,12 @@
 {
  "format": 1,
  "key": "9daad1147531048a",
- "signature": "NF98Oy1M9yh0yKc5B+mgui1C/AiMotMulX76rOpcVsrYbIqrnA3Ax4I+gTicllnatkVAJi54rnZrM0+q+LIuAA==",
+ "signature": "8xYjs/hEyu/FxHrGHUtE2M2Hro+JNgi8iujm0nyaqXbR9lFQUNHgzVCC3stEqZSnUAMCEoSlM2cE4FzTSGKbDQ==",
  "payload": {
   "app": "FX Terminal",
   "published": "2026-11-16 13:28",
   "latest": "2.1.82",
   "packages": [
-   {
-    "version": "2.1.79",
-    "requires": "2.1.78",
-    "file": "packages/fx_update_2.1.79.zip",
-    "sha256": "5231d7697ee1cfd0848b9e19613806a7d26fed1c92cf970fe2ba61bc70bfd038",
-    "size": 288499,
-    "date": "2026-11-16",
-    "build_rust": false,
-    "changes": [
-     "Подготовка к сборке в exe. В этой папке (C:\\FX_Terminal) ничего не меняется: данные лежат где лежали, обновления ставятся как раньше.",
-     "Собранная программа хранит данные (журналы, базы, рисунки, события, кэши) в %LOCALAPPDATA%\\FX_Terminal, а не рядом с программой: переустановка и удаление их не трогают. Настройки, токен и заметки — по-прежнему в реестре. Все пути данных собраны в app_paths.py; cny_forward_monitor больше не привязан жёстко к C:/FX_Terminal.",
-     "Обновления через интернет работают и в собранной программе: файлы терминала (.py) лежат рядом с exe в папке app и меняются тем же установщиком обновлений, проверки идут через fx_python.exe. Пакет с pip или пересборкой Rust собранная программа не ставит — для него нужен новый установщик.",
-     "tools/build_exe.py — сборка одной командой: PyInstaller (программа «папкой»: FX Terminal.exe, fx_python.exe, библиотеки) и установщик Inno Setup FX_Terminal_Setup_<версия>.exe — без прав администратора, в %LOCALAPPDATA%\\Programs\\FX Terminal, ярлыки на рабочем столе и в «Пуске». После сборки — проверка: собранная программа импортирует все модули терминала."
-    ]
-   },
    {
     "version": "2.1.82",
     "requires": "2.1.81",
