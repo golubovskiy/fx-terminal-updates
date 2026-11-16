@@ -1,24 +1,12 @@
 {
  "format": 1,
  "key": "9daad1147531048a",
- "signature": "p6loOXHzIhHt7Q14kUb6aZMOzYlJVO9yuOUjDYuAX/GViTZ/YcyPnugx3PUiBfAX3aRm/IJAZhQ1o0r7yCLADA==",
+ "signature": "NF98Oy1M9yh0yKc5B+mgui1C/AiMotMulX76rOpcVsrYbIqrnA3Ax4I+gTicllnatkVAJi54rnZrM0+q+LIuAA==",
  "payload": {
   "app": "FX Terminal",
-  "published": "2026-11-16 13:27",
+  "published": "2026-11-16 13:28",
   "latest": "2.1.82",
   "packages": [
-   {
-    "version": "2.1.78",
-    "requires": "2.1.77",
-    "file": "packages/fx_update_2.1.78.zip",
-    "sha256": "90836222d94a0a61a83bbf856fd3b7292cefb98ebc0f1ce29dedf895620134b9",
-    "size": 156390,
-    "date": "2026-11-16",
-    "build_rust": false,
-    "changes": [
-     "Отказ брокера виден в стакане: красная плашка у нижнего края стакана с причиной по-русски — например, «Заявка отклонена: Не хватает собственных бумаг - 1 штук (код 157)» вместо «INVALID_ARGUMENT: INVALID_ARGUMENT: [157]Equities shortage…». Уходит сама через 6 с, щелчок — убрать сразу. Так же показываются отказы самого терминала (лимит лота и позиции, дневной лимит убытка), неудачная отмена и закрытие. Раньше эти сообщения были только в строке состояния, которая в узком стакане обрезается. Полный ответ сервера по-прежнему пишется в журнал."
-    ]
-   },
    {
     "version": "2.1.79",
     "requires": "2.1.78",
