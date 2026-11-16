@@ -1,11 +1,11 @@
 {
  "format": 1,
  "key": "9daad1147531048a",
- "signature": "bO6SvCemiPOy2vq3+2f55giI8EzEqEhrHOmN1IhUyFYXyMvYqEhunvs7+DCMKnf2QsVE5JKsh4zsyTIxntYrAA==",
+ "signature": "wpeWaDqqG90adRfYpxwBBBPRY8txAF01u72idZk97zY+UUit78Apo2hPcuLFvXgOZ0qWKpEo8PyUgPv6H6hxAw==",
  "payload": {
   "app": "FX Terminal",
-  "published": "2026-11-16 12:35",
-  "latest": "2.1.79",
+  "published": "2026-11-16 13:18",
+  "latest": "2.1.82",
   "packages": [
    {
     "version": "2.1.69",
@@ -126,6 +126,18 @@
      "Собранная программа хранит данные (журналы, базы, рисунки, события, кэши) в %LOCALAPPDATA%\\FX_Terminal, а не рядом с программой: переустановка и удаление их не трогают. Настройки, токен и заметки — по-прежнему в реестре. Все пути данных собраны в app_paths.py; cny_forward_monitor больше не привязан жёстко к C:/FX_Terminal.",
      "Обновления через интернет работают и в собранной программе: файлы терминала (.py) лежат рядом с exe в папке app и меняются тем же установщиком обновлений, проверки идут через fx_python.exe. Пакет с pip или пересборкой Rust собранная программа не ставит — для него нужен новый установщик.",
      "tools/build_exe.py — сборка одной командой: PyInstaller (программа «папкой»: FX Terminal.exe, fx_python.exe, библиотеки) и установщик Inno Setup FX_Terminal_Setup_<версия>.exe — без прав администратора, в %LOCALAPPDATA%\\Programs\\FX Terminal, ярлыки на рабочем столе и в «Пуске». После сборки — проверка: собранная программа импортирует все модули терминала."
+    ]
+   },
+   {
+    "version": "2.1.82",
+    "requires": "2.1.81",
+    "file": "packages/fx_update_2.1.82.zip",
+    "sha256": "29c630893040680679ac68dfc85bff5f820a62f55e72e02928203b29b7dfcf5b",
+    "size": 54490,
+    "date": "2026-11-16",
+    "build_rust": false,
+    "changes": [
+     "Собранная программа: на панели задач — значок FX Terminal, а не пустое окно. Свой идентификатор окна для панели задач (AppUserModelID) теперь задаётся только при запуске из исходников, где без него был бы значок Python; FX Terminal.exe Windows узнаёт по самому exe и берёт его значок."
     ]
    }
   ]
