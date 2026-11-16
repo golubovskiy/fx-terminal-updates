@@ -1,24 +1,12 @@
 {
  "format": 1,
  "key": "9daad1147531048a",
- "signature": "XycDbwSVTdn4RaAqlTTMweDgzMseSpJ3GDF89zwW1U3AnzrdKIzGWGCw2xtRO+SfcVcSipkLnpfebmiJg/FbDw==",
+ "signature": "J5TU55bGFAkItAhNxQVwoPMhFA7s6A5z+gUP55sLjWJhELE4gTtVAT7OBMChAPk4/h6evXkg+wAr8bRyELMoBw==",
  "payload": {
   "app": "FX Terminal",
-  "published": "2026-11-16 13:25",
+  "published": "2026-11-16 13:26",
   "latest": "2.1.82",
   "packages": [
-   {
-    "version": "2.1.74",
-    "requires": "2.1.70",
-    "file": "packages/fx_update_2.1.74.zip",
-    "sha256": "243ba54ef1066ed799be7b90a41e65f4d6581de06be3f4dd6c5286246e80ba0b",
-    "size": 67125,
-    "date": "2026-11-16",
-    "build_rust": false,
-    "changes": [
-     "То же, что 2.1.73 (не установилась: кнопка «GitHub ↗» снова получала нулевую наименьшую ширину — её собственная таблица стилей при оформлении сбрасывала ширину и в 2.1.71–2.1.73; теперь своего стиля у кнопки нет, она оформлена как остальные кнопки окна, мельче только шрифт, а ширину по тексту получает вместе с ними — тем же способом, что уже проходит проверку). «О проекте»: кнопка «GitHub ↗» — страница обновлений github.com/golubovskiy/fx-terminal-updates. Обновления через интернет перешагивают неудачный пакет (2.1.74 требует 2.1.70 и перешагивает 2.1.71). tools/publish_update.py --withdraw ВЕРСИЯ — снять опубликованный пакет."
-    ]
-   },
    {
     "version": "2.1.75",
     "requires": "2.1.74",
