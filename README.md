@@ -1,4 +1,4 @@
-![FX Terminal — Analyze · Trade · Grow](AnimeFX.png)
+![FX Terminal — Analyze · Trade · Grow](AnimeFX.webp)
 
 # FX Terminal — установка и обновления
 
